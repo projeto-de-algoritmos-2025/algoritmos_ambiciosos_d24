@@ -11,15 +11,18 @@ public:
 
         int day = 0;
         int qnt = 0;
+        priority_queue<int> pq;
+        int top;
         for(auto& i:courses) {
             day += i[0];
-            if(day <= i[1]) {
-                qnt++;
-            } else {
-                break;
+            pq.push(i[0]);
+            if(day > i[1]) {
+                top = pq.top();
+                pq.pop();
+                day -= top;
             }
         }
 
-        return qnt;
+        return pq.size();
     }
 };
