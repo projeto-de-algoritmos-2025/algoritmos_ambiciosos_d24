@@ -4,4 +4,5 @@
 
 |EXERCÍCIO| CONTEÚDO | RESPONSÁVEL | LINK DE ACESSO |
 |---|---|---|---|
-|435| Non-overlapping Intervals | [Guilherme Storch](https://github.com/storch7) | https://leetcode.com/problems/non-overlapping-intervals/description/ |
+|435| [  ]Non-overlapping Intervals | [Guilherme Storch](https://github.com/storch7) | https://leetcode.com/problems/non-overlapping-intervals/description/ |
+|857| [ Knapsack Fracionário] Minimum Cost to Hire K Workers | [Guilherme Storch](https://github.com/storch7) | https://leetcode.com/problems/minimum-cost-to-hire-k-workers/description/ |
